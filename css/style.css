@@ -11,8 +11,23 @@
     background-color: #f0f0f0;
 }
 
-.dropdown {
+.toolbar_dropdown {
     border: none;
     background-color: transparent;
     padding: 4px 8px;
+}
+
+.toolbar_button {
+    border: none;
+    background-color: transparent;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.editor {
+    border: none;
+}
+
+.editor:focus {
+    outline: none;
 }
